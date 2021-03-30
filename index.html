@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <!------------------ BASIC PAGE NEEDS ------------------>
+        
+        <meta charset="utf-8">
+        <title>Geetanjali Pawase</title>
+        <meta name="description" content="Portfolio">
+        <meta name="author" content="Geetanjali Pawase">
+        
+
+        <!------------------- MOBILE SPECIFIC METAS -------------------->
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+
+        <!----------------------- STYLESHEETS ------------------------>
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        
+        <link rel="stylesheet" href="css/skeleton.css">
+        
+        <link rel="stylesheet" href="styles.css">
+        
+        
+        <!----------------------- FONT AWESOME ICON ------------------------>
+        
+        <script src="https://kit.fontawesome.com/461aba629f.js" crossorigin="anonymous"></script>
+       
+
+        <!-------------------------- FAVICON --------------------------------->
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        
+        
+        <!-------------------------- ANIMATE AOS --------------------------------->  
+          
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        
+</head>
+
+    <body>  
+        
+        <!------------- HEADER ------------->
+
+        <header class="nav-bar">
+            <div class="container">
+                <div class="row twelve columns">
+                    <a href="index.html">
+                        <img src="images/pawase-geetanjali-logo.png">
+                    </a>  
+                    
+                    <div class="navigation">
+                        <div class="nav" id="myNav">
+                            <a href="index.html">Home</a>
+                            <a href="#about-section">About Me</a>
+                            <a href="#skills-section">My Skills</a>
+
+                                <div class="dropdown">
+                                    <a class="dropbtn link-style">My Portfolio 
+                                        <i class="fas fa-angle-down"></i>
+                                    </a>
+
+                                    <div class="dropdown-content">
+                                        <a href="#webdesign" class="nav-link">Web Design</a>
+                                        <a href="#uxdesign" class="nav-link">UX Design</a>
+                                        <a href="#graphicdesign" class="nav-link">Graphic Design</a>
+                                    </div>
+                                </div>
+
+                            <a href="contact.html">Contact Me</a>
+                            <a href="javascript:void(0);" class="icon" style="font-size:15px; color: #FFFFFF" onclick="myFunction()"><i class="fas fa-bars"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <script>
+            function myFunction() {
+            var x = document.getElementById("myNav");
+              if (x.className === "nav") {
+                x.className += " responsive";
+              } else {
+                x.className = "nav";
+              }
+            }
+        </script>
+        
+        <!------------- BANNER ------------->
+        
+        <section class="banner-image">
+            <div class="container">
+                <div class="row arrange">
+                    <h1 class="text-space"> Hi! I am 
+                        <span style = "color: #F9326B;">Geetanjali!</span>
+                    </h1>
+                    
+                    <p class="text-space">I AM A 
+                        <span style = "color: #F9326B;">WEB DESIGNER</span> 
+                        <br> AND 
+                        <span style = "color: #F9326B;">DEVELOPER</span>
+                    </p>
+                    <img src="images/banner-home.jpeg" class="banner-home mobile-show">
+                </div>
+            </div>
+        </section>
+      
+        
+        <!------------- ABOUT ME ------------->
+        
+        <section class="about-me" id="about-section">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="twelve columns top-space">
+                        <h1>About Me</h1>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="twelve columns">
+                        <p>I am a highly motivated Web Designer and Developer with a passion for creating and maintaining functional, attractive and responsive websites. Able to build a web presence from the ground up - from concept, user research, navigation, layout and programming to UX. </p>
+                    </div>
+                </div>
+                
+                <div class="button-align" align="center">
+                    <a class="button" href="about-me.html" target="_blank" rel="nofollow noopener">KNOW MORE</a>
+                </div>
+                
+            </div>
+        </section>
+        
+        <!------------- MY SKILLS ------------->
+        
+        <section class="my-skills" id="skills-section">
+            <div class="container" data-aos="fade-up">
+                <div class="row spacing">
+                    <div class="twelve columns top-space">
+                        <h1>My Skills</h1>
+                    </div>
+                </div>
+                
+                <!------------- MY SKILLS ROW 1 ------------->
+                
+                <div class="row">
+                    <div class="four columns">
+                        <img src = "images/design.png">
+                        <h4>Design</h4>
+                    </div>
+                    
+                    <div class="four columns">
+                        <img src = "images/front-end-development.png">
+                        <h4>Front End Development</h4>
+                    </div>
+                    
+                    <div class="four columns">
+                        <img src = "images/photography.png">
+                        <h4>Photography</h4>
+                    </div> 
+                </div>
+                
+                <!------------- MY SKILLS ROW 2 ------------->
+                
+                <div class="row">
+                    <div class="four columns">
+                        <img src = "images/soft-skills.png">
+                        <h4>Soft Skills</h4>
+                    </div>
+                    
+                    <div class="four columns">
+                        <img src = "images/user-experience.png">
+                        <h4>User Experience</h4>
+                    </div>
+                    
+                    <div class="four columns">
+                        <img src = "images/user-interface.png">
+                        <h4>User Interface</h4>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        
+        
+        <!------------- MY PORTFOLIO ------------->
+        
+        <section class="my-work" id="portfolio-section">
+            <div class="container">
+                <div class="row spacing" data-aos="fade-up">
+                    <div class="twelve columns top-space work-title">
+                        <h1>My Portfolio</h1>
+                    </div>
+                </div>
+                
+                <!------------- WEB DESIGN ------------->
+                
+                <div data-aos="fade-left">
+                    <div class="row work-title top-space" id="webdesign">
+                        <div class="twelve columns top-space">
+                            <h3>Web Design</h3>
+                        </div>
+                    </div>
+
+                    <div class="row top-space">
+                        <div class="six columns">
+                            <img src="images/css-zen-garden.png">
+                        </div>
+
+                        <div class="six columns">
+                            <p> I was responsible for creating cohesive and visually attractive front-end designs. Along with that I also worked on back-end design to ensure the websites were user-friendly. Working on both ends increased my knowledge of the fundamentals required to enhance applications for both mobile and web users.</p>
+
+                            <div class="button-align" align="center">
+                                <a class="button" href="web-design.html" target="_blank" rel="nofollow noopener">VIEW PROJECTS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!------------- UX DESIGN ------------->
+                
+                <div data-aos="fade-right">
+                    <div class="row work-title top-space" id="uxdesign">
+                        <div class="twelve columns top-space">
+                            <h3>UX Design</h3>
+                        </div>
+                    </div>
+
+                    <div class="row mobile-view top-space">
+                        <div class="six columns">
+                            <p>I begin with a list of user requirements and interviewing users to get a better idea of what they need. It's important because it ensures that the product will meet the needs of your customers. I then create mock-ups that I test with actual users before implementing the final design.</p>
+
+                            <div class="button-align" align="center">
+                                <a class="button" href="ux-design.html" target="_blank" rel="nofollow noopener">VIEW PROJECTS</a>
+                            </div>
+                        </div>
+
+                        <div class="six columns">
+                            <img src="images/bicycle-shop-website.png">
+                        </div>
+                    </div>
+                </div>
+                
+                <!------------- GRAPHIC DESIGN ------------->
+                
+                <div data-aos="fade-left">
+                    <div class="row work-title top-space" id="graphicdesign">
+                        <div class="twelve columns top-space">
+                            <h3>Graphic Design</h3>
+                        </div>
+                    </div>
+
+                    <div class="row top-space">
+                        <div class="six columns">
+                            <img src="images/infographics.png">
+                        </div>
+
+                        <div class="six columns">
+                            <p>I brainstorm ideas, sketch out mockups and start turning this into compelling visuals. Color theory is the science and art of how colors interact, complement and contrast. I use the elements of color theory to inform my work and invoke feeling in my designs.</p>
+
+                            <div class="button-align" align="center">
+                                <a class="button" href="graphic-design.html" target="_blank" rel="nofollow noopener">VIEW PROJECTS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        
+        <!------------- CONTACT ME ------------->
+        
+        <div class="container contact-me" data-aos="fade-up" id="contact-section">
+            <div class="row spacing">
+                <div class="twelve columns top-space ">
+                    <h1>Contact Me</h1>
+                    <p>Please feel free to connect with me! You can connect with me using my contact information provided below.</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="four columns">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Ottawa, Canada</p>
+                </div>
+    
+                <div class="four columns">
+                    <i class="fas fa-phone-volume"></i>
+                    <p>613-816-8851</p>
+                </div>
+                
+                <div class="four columns">
+                    <i class="fas fa-envelope"></i>
+                    <p><a href="mailto:gitanjalipawase9@gmail.com" class="email">gitanjalipawase9@gmail.com</a></p>
+                </div>
+            </div>
+            
+            <div class="button-align" align="center">
+                <a class="button" href="contact.html" target="_blank" rel="nofollow noopener">GET IN TOUCH</a>
+            </div>
+        </div>
+
+
+
+        
+        <!------------- FOOTER ------------->
+        
+        <footer>
+            <div class="container">
+                <div class="row section-spacing">
+                    <div class="twelve columns">
+                        <p>
+                            <small>&copy;
+                            <script>document.write(new Date().getFullYear());</script>
+                            Geetanjali Pawase. All Rights Reserved.
+                            <br> Designed &amp; Developed by 
+                            <a href="" target="_blank">Geetanjali Pawase</a>
+                            </small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+          
+        </footer>
+
+<!-- DOCUMENT ENDS -->
+            
+  
+<script type="text/javascript">
+    AOS.init({
+        duration: 1200,
+    })
+</script>
+        
+</body>
+</html>

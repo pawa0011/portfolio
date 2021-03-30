@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <!------------------ BASIC PAGE NEEDS ------------------>
+        
+        <meta charset="utf-8">
+        <title>Geetanjali Pawase</title>
+        <meta name="description" content="Portfolio">
+        <meta name="author" content="Geetanjali Pawase">
+        
+
+        <!------------------- MOBILE SPECIFIC METAS -------------------->
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+
+        <!----------------------- STYLESHEETS ------------------------>
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        
+        <link rel="stylesheet" href="css/skeleton.css">
+        
+        <link rel="stylesheet" href="styles.css">
+        
+        
+        <!----------------------- FONT AWESOME ICON ------------------------>
+        
+        <script src="https://kit.fontawesome.com/461aba629f.js" crossorigin="anonymous"></script>
+       
+       
+        <!-------------------------- FAVICON --------------------------------->
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        
+        
+        <!-------------------------- ANIMATE AOS --------------------------------->  
+          
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        
+</head>
+
+    <body>  
+        
+        <!------------- HEADER ------------->
+
+        <header class="nav-bar">
+            <div class="container">
+                <div class="row twelve columns">
+                    <a href="index.html">
+                        <img src="images/pawase-geetanjali-logo.png">
+                    </a>  
+                    
+                    <div class="navigation">
+                        <div class="nav" id="myNav">
+                            <a href="index.html">Home</a>
+                            <a href="about-me.html">About Me</a>
+                            <a href="index.html#skills-section">My Skills</a>
+
+                                <div class="dropdown">
+                                    <a class="dropbtn link-style">My Portfolio 
+                                        <i class="fas fa-angle-down"></i>
+                                    </a>
+
+                                    <div class="dropdown-content">
+                                        <a href="web-design.html" class="nav-link">Web Design</a>
+                                        <a href="ux-design.html" class="nav-link">UX Design</a>
+                                        <a href="graphic-design.html" class="nav-link">Graphic Design</a>
+                                    </div>
+                                </div>
+
+                            <a href="contact.html">Contact Me</a>
+                            <a href="javascript:void(0);" class="icon" style="font-size:15px; color: #FFFFFF" onclick="myFunction()"><i class="fas fa-bars"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <script>
+            function myFunction() {
+            var x = document.getElementById("myNav");
+              if (x.className === "nav") {
+                x.className += " responsive";
+              } else {
+                x.className = "nav";
+              }
+            }
+        </script>
+        
+        <!------------- BANNER ------------->
+        
+        <section class="banner-image">
+            <div class="container">
+                <div class="row arrange">
+                    <h1 class="title-space"> ABOUT 
+                        <span style = "color: #F9326B;">ME</span>
+                    </h1>
+                    
+                    <img src="images/banner-about-me.jpg" class="banner-about-me mobile-show">
+                </div>
+            </div>
+        </section>
+      
+        
+        <!------------- ABOUT ME ------------->
+        
+        <section class="about-me-page" id="about-section">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="twelve columns">
+                        <p>Hello! My name is Geetanjali Pawase. I am 23 years old and I am from the beautiful country called 'India'. I am currently living in Ottawa, Ontario, Canada. I have completed my <strong>Bachelors of Engineering in Computer Science</strong> from the University of Pune. I also hold a <strong>Diploma in UX-UI Design</strong>. I am currently pursuing the <strong>Interactive Media Management</strong> program at Algonquin College, Canada.</p>
+                        <br>
+                        <h2>"I like to create eyecatching artwork and stay updated with the ever-changing trends in design and challenging myself to learn more each day."</h2>
+                        <br>
+                        <p>I am most experienced with programming languages like <strong>HTML, CSS, Javascript and PHP</strong>. I have some knowledge about C, C++ and Python as well. I am well experienced in varied Adobe softwares like <strong>Illustrator, Photoshop, InDesign, XD, Premiere Pro and After Effects</strong>. I have some knowledge about Adobe Animate as well.</p>
+                    </div>
+                </div>
+                
+                <div class="button-align" align="center">
+                    <a class="button" href="geetanjali-pawase-resume.pdf" target="_blank" rel="nofollow noopener">VIEW MY RESUME</a>
+                </div>  
+            </div>
+        </section>
+        
+        <!------------- FOOTER ------------->
+        
+        <footer>
+            <div class="container">
+                <div class="row section-spacing">
+                    <div class="twelve columns">
+                        <p>
+                            <small>&copy;
+                            <script>document.write(new Date().getFullYear());</script>
+                            Geetanjali Pawase. All Rights Reserved.
+                            <br> Designed &amp; Developed by 
+                            <a href="" target="_blank">Geetanjali Pawase</a>
+                            </small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+          
+        </footer>
+
+<!-- DOCUMENT ENDS -->
+            
+
+<script type="text/javascript">
+    AOS.init({
+        duration: 1200,
+    })
+</script>
+        
+</body>
+</html>
